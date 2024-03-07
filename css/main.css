@@ -129,7 +129,7 @@ ul {
 }
 ul li:before {
     content: "♦";
-    color: #f4f4f4;
+    color: #353535;
     position: absolute;
     left: -10px;
 }
