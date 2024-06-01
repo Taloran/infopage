@@ -128,7 +128,6 @@ ul {
     padding: 0 0 0 40px;
 }
 ul li:before {
-    content: "♦";
     color: #353535;
     position: absolute;
     left: -10px;
