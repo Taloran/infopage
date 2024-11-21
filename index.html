@@ -1,71 +1,155 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-    <link rel="stylesheet" href="./css/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
     <title>Taloran's Info Page</title>
-</head>
-<body>
-
-<div class="header"></div> 
-<div class="container">
-    <h1>介绍页</h1>
-    <div class="profile">
-        <img src="https://static-lrain.oss-cn-hongkong.aliyuncs.com/taloran.jpg" alt="me">
-        <div class="profile-info">
-            <h2>洛雨 (Taloran)</h2>
-            <p>前端、网工</p>
-            <p>邮箱: i#yukino.io（#换成@）</p>
-        </div>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="line"></div>
+    <div class="theme">
+      <button id="theme-btn">
+        <i class="fas fa-moon"></i>
+      </button>
     </div>
-    
-    <div class="about">
-        <h3>那么，你是哪位？</h3>
-        <p>我是洛雨，名字的来源和我一位旧友有关，并且我很喜欢下雨天，由此得名洛雨，偶尔会变成什么什么雨，但叫洛雨一定不会错。英文id有两个，分别为LRain和Taloran，后者更为常用。</p>
-        <div class="separator"></div>
-        
-        <h3>关于本站</h3>
-        <p>我曾尝试做过很多网站，各种花哨的也尝试过，后来还是打算仅仅写一个Info Page，目前来讲还算个雏形，打算在接下来的一段时间进行优化以及增加英语翻译。灵感则是来自于我的一位朋友的站点，这个网站的一切仅能算是拙劣的“抄袭”，本站托管在<a href="https://vercel.com/">vercel</a>上，域名是我非常喜欢的角色名（主要是比较好记x）。</p>
-        <div class="separator"></div>
-        
-        <h3>擅长的事</h3>
-        <p>精通中文（？），也可以使用英语，还有C/C++会做一些算法题。熟悉弱电，网络工程相关，今年打算去考ip级证书，熟悉k8s,docker,sealos（？）等运维技术。熟悉前端Html、CSS、JS以及VUE、React相关框架。梦想是十年后成为全栈高手。喜欢摄影，大概以后会出一个影廊来记录我所拍的照片！</p>
-        <div class="separator"></div>
-        
-        <h3>一些成分</h3>
-        <p>玩的游戏下面会写，我推二次元小偶像，喜欢ena。虚拟歌姬会喜欢可不和里命还有miku；唱见（？）会听异世界情绪、蓝月、lasah；曲师会有Fery、BlackY、TAKA、ZAQUVA（你值得欣赏）、猫叉、静屋；p主有：SLAVE.V-V-R、siina mota、sskr、神山羊、稲葉曇、orangestar、wotaku...其实还有好多，我还喜欢mili，搞东方的听幽闭、ayo、森罗万象多一些</p>
-        <div class="separator"></div>
-        
+    <div class="wrap">
+      <h1>Info Page</h1>
+      <div class="intro">
+        <img
+          src="https://static-lrain.oss-cn-hongkong.aliyuncs.com/taloran.jpg"
+          alt="me"
+        />
+        <div class="intro-text">
+          <h2>洛雨 (Taloran)</h2>
+          <p>前端、网工</p>
+          <p>邮箱: i#yukino.io（#换成@）</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>那么，你是哪位？</h3>
+          <p>
+            我是洛雨，名字的来源和我一位旧友有关，并且我很喜欢下雨天，由此得名洛雨，偶尔会变成什么什么雨，但叫洛雨一定不会错。英文id有两个，分别为LRain和Taloran，后者更为常用。
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>关于本站</h3>
+          <p>
+            我曾尝试做过很多网站，各种花哨的也尝试过，后来还是打算仅仅写一个Info
+            Page，目前来讲还算个雏形，打算在接下来的一段时间进行优化以及增加英语翻译。灵感则是来自于我的一位朋友的站点，这个网站的一切仅能算是拙劣的"抄袭"，本站托管在<a
+              href="https://vercel.com/"
+              >vercel</a
+            >上，域名是我非常喜欢的角色名（主要是比较好记x）。
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>擅长的事</h3>
+          <p>
+            精通中文（？），也可以使用英语，还有C/C++会做一些算法题。熟悉弱电，网络工程相关，今年打算去考ip级证书，熟悉k8s,docker,sealos（？）等运维技术。熟悉前端Html、CSS、JS以及VUE、React相关框架。梦想是十年后成为全栈高手。喜欢摄影，大概以后会出一个影廊来记录我所拍的照片！
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>一些成分</h3>
+          <p>
+            玩的游戏下面会写，我推二次元小偶像，喜欢ena。虚拟歌姬会喜欢可不和里命还有miku；唱见（？）会听异世界情绪、蓝月、lasah；曲师会有Fery、BlackY、TAKA、ZAQUVA（你值得欣赏）、猫叉、静屋；p主有：SLAVE.V-V-R、siina
+            mota、sskr、神山羊、稲葉曇、orangestar、wotaku...其实还有好多，我还喜欢mili，搞东方的听幽闭、ayo、森罗万象多一些
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>玩的游戏</h3>
+          <p>随便玩玩一些MUG，FPS，卡牌游戏之类的，偶尔会搓面麻。</p>
+          <button class="more">查看更多成分</button>
+        </div>
+
+        <div class="card">
+          <h3>联系我</h3>
+          <div class="link">
+            <i class="fab fa-bilibili bili"></i>
+            <a href="https://space.bilibili.com/242127685">B站</a>
+            <span>：不定期进行直播。</span>
+          </div>
+          <div class="link">
+            <i class="fab fa-telegram tg"></i>
+            <a href="https://t.me/lrainchan">Telegram</a>
+            <span>：使用最多。</span>
+          </div>
+          <div class="link">
+            <i class="fab fa-github gh"></i>
+            <a href="https://github.com/Taloran">GitHub</a>
+            <span>：代码仓库。</span>
+          </div>
+          <div class="link">
+            <i class="fas fa-envelope mail"></i>
+            <strong>Email</strong>
+            <span>：i#yukino.io（#换成@）</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <small
+        >© 2022-2024 洛雨. 保留所有权利.<br />怎么写的跟简历一样，可恶</small
+      >
+    </footer>
+
+    <div class="popup" id="games">
+      <div class="popup-box">
+        <span class="close">&times;</span>
         <h3>玩的游戏</h3>
         <ul>
-            <li>MUG
-                <ul>
-                    <li>Pjsk：主要是奔着听歌去的！可以AP几首30以下，FC32以下!最喜欢的曲子是《少女Ray》。</li>
-                    <li>Maimai DX：有虹R了！会比较喜欢散键和扫键类型的曲子。</li>
-                    <li>Chunithm：也是虹R,V段达成。喜欢忍术歌，很喜欢忍术，最喜欢的曲子是《ANU》希望可以把紫谱鸟掉。</li>
-                    <li>SDVX：或帝灭斗降临！（其实是VF快17刚力罗）喜欢片手，觉得很帅（x）最喜欢的曲子是《AΩ》</li>
-                    <li>IIDX：SP六段达成！打算多精进一下这个游戏！很喜欢这游戏的曲库。</li>
-                    <li>我还玩Jubeat，可以打打简单的10到S。Nostalgia和过山车可以打打简单的谱，之前玩过arc有摘星，很喜欢这种游玩模式。</li>
-                </ul>
-            </li>
-            <li>和朋友玩的游戏：会有很多很多种，喜欢玩<b>传送门</b>，很喜欢这一类的解谜游戏；<b>严阵以待</b>，如果有朋友叫我我会去玩的；<b>MC</b>，自己玩没意思会和朋友们在服务器里面一起玩...</li>
-            <li>FPS：<b>彩虹六号</b>，别看我这样，我可是上过Rank1.0钻石的；<b>Apex</b>完全苦手呜呜，但是属于又菜又爱玩。</li>
-            <li>卡牌游戏：我是<b>日麻</b>高手！天凤六段，雀魂也是上过圣二。玩过<b>PTCG</b>，朋友带入坑的;<b>影之诗</b>，也算是上了Master了呢，比较想入手<b>YGO</b>但是一直没什么机会，最近想试试<b>ws！</b></li>
-            <li>完全苦手的游戏！XXX：比较不喜欢<b>Moba</b>类游戏，完全苦手；对于<b>狼人杀</b>类游戏也是脑子不太够用...</li>
+          <li>
+            MUG
+            <ul>
+              <li>
+                Pjsk：主要是奔着听歌去的！可以AP几首30以下，FC32以下!最喜欢的曲子是《少女Ray》。
+              </li>
+              <li>Maimai DX：有虹R了！会比较喜欢散键和扫键类型的曲子。</li>
+              <li>
+                Chunithm：也是虹R,V段达成。喜欢忍术歌，很喜欢忍术，最喜欢的曲子是《ANU》希望可以把紫谱鸟掉。
+              </li>
+              <li>
+                SDVX：或帝灭斗降临！（其实是VF快17刚力罗）喜欢片手，觉得很帅（x）最喜欢的曲子是《AΩ》
+              </li>
+              <li>
+                IIDX：SP六段达成！打算多精进一下这个游戏！很喜欢这游戏的曲库。
+              </li>
+              <li>
+                我还玩Jubeat，可以打打简单的10到S。Nostalgia和过山车可以打打简单的谱，之前玩过arc有摘星，很喜欢这种游玩模式。
+              </li>
+            </ul>
+          </li>
+          <li>
+            和朋友玩的游戏：会有很多很多种，喜欢玩<b>传送门</b>，很喜欢这一类的解谜游戏；<b>严阵以待</b>，如果有朋友叫我我会去玩的；<b>MC</b>，自己玩没意思会和朋友们在服务器里面一起玩...
+          </li>
+          <li>
+            FPS：<b>彩虹六号</b>，别看我这样，我可是上过Rank1.0钻石的；<b>Apex</b>完全苦手呜呜，但是属于又菜又爱玩。
+          </li>
+          <li>
+            卡牌游戏：我是<b>日麻</b>高手！天凤六段，雀魂也是上过圣二。玩过<b>PTCG</b>，朋友带入坑的;<b>影之诗</b>，也算是上了Master了呢，比较想入手<b>YGO</b>但是一直没什么机会，最近想试试<b
+              >ws！</b
+            >
+          </li>
+          <li>
+            完全苦手的游戏！XXX：比较不喜欢<b>Moba</b>类游戏，完全苦手；对于<b>狼人杀</b>类游戏也是脑子不太够用...
+          </li>
         </ul>
-        <div class="separator"></div>
-        
-        <h3>联系我</h3>
-        <p><a href="https://space.bilibili.com/242127685">B站</a>：不定期进行直播。</p>
-        <p><a href="https://t.me/lrainchan">Telegram</a>：看见手机的话是会回复的。</p>
-        <p><strong>Email</strong>：i#yukino.io（#换成@）（强烈建议使用，如果有重要的事情，发邮件是最好的！）</p>
+      </div>
     </div>
-</div>
 
-<footer>
-    © 2022-2024 洛雨. 保留所有权利.<br><br>怎么写的跟简历一样，可恶
-</footer>
-
-</body>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
